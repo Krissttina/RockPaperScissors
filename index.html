@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors Game</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
 </head>
@@ -11,28 +11,28 @@
     <h1>Rock Paper Scissors</h1>
     <h2 id="demo">Try your luck!</h2>
 <!-- Container  -->
-    <div class="container">
+    <section class="container">
 
-<!-- The first section -->
-        <div class="section">
+<!-- Result section(You) -->
+        <section class="section">
             <div class="info">
                 <h3>You:</h3><span id="playerScore">0</span>
             </div>
             <div class="show">
                 <i class="fas fa-hand-rock"></i>
             </div>
-        </div>
+        </section>
 
-<!-- The second section -->
-        <div class="section">
+<!-- Result section(Computer) -->
+        <section class="section">
             <div class="info">
                 <h3>Computer:</h3><span id="computerScore">0</span>
             </div>
             <div class="show computer">
                 <i class="fas fa-hand-scissors"></i>
             </div>
-        </div>
-    </div>
+        </section>
+    </section>
     <h2 id="demo2">Select your choice!</h2>
 
 <!-- This selection div contains the buttons -->
@@ -42,9 +42,6 @@
         <button class="fas fa-hand-scissors" id="scissors"></button>
     </div>
 
-<!-- Try again button -->
-    <h3 hidden id="hiden">Try again!</h3>
-
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
 </html>
