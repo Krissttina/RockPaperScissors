@@ -2,7 +2,7 @@
 
 Rock paper scissors is one of the most popular games in the world.
 
-You can try live demo by clicking on 'pages' in Environment ->
+You can try live demo by clicking on 'github-pages' in Environment ->
 
 ### Rules
 
